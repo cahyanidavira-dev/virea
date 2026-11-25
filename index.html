@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VIREA - Tumbler multifungsi dengan desain estetik untuk menemani aktivitas sehari-hari.">
+    <title>VIREA | Your Daily Hydration</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">VIREA<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Buka menu navigasi"
+                aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">STAY FRESH, STAY STYLISH</span>
+
+                <h1>Your Daily Hydration,<br>
+                    <span>Your Style.</span>
+                </h1>
+
+                <p>
+                    Temani setiap aktivitasmu dengan VIREA,
+                    tumbler multifungsi yang dirancang untuk
+                    menjaga minuman tetap panas maupun dingin.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#product" class="btn btn-primary">
+                        Explore Collection
+                    </a>
+                    <a href="#about" class="btn btn-outline">
+                        Discover VIREA
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/hero-tumbler.jpg"
+                    alt="Koleksi tumbler VIREA">
+                <div class="image-label">
+                    Simple. Elegant. Functional.
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about section-padding">
+            <div class="section-heading">
+                <span class="eyebrow">GET TO KNOW US</span>
+                <h2>About <span>VIREA</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/product-orange.jpg"
+                        alt="Produk tumbler VIREA">
+                </div>
+
+                <div class="about-text">
+                    <h3>Little Things, Better Living.</h3>
+
+                    <p>
+                        VIREA merupakan brand tumbler yang hadir
+                        untuk memberikan pengalaman minum yang
+                        lebih praktis, nyaman, dan stylish.
+                    </p>
+
+                    <p>
+                        Kami menghadirkan tumbler multifungsi
+                        yang membantu menjaga suhu minuman tetap
+                        panas maupun dingin, dengan desain modern
+                        dan pilihan warna yang menarik.
+                    </p>
+
+                    <p>
+                        VIREA percaya bahwa produk sehari-hari
+                        tidak hanya harus fungsional, tetapi juga
+                        dapat menjadi bagian dari gaya hidup.
+                    </p>
+                </div>
+            </div>
+
+            <div class="value-grid">
+                <div class="value-card">
+                    <span>01</span>
+                    <h3>Functional</h3>
+                    <p>Dirancang untuk mendukung kebutuhan minum sehari-hari.</p>
+                </div>
+
+                <div class="value-card">
+                    <span>02</span>
+                    <h3>Aesthetic</h3>
+                    <p>Desain minimalis dengan warna yang menarik.</p>
+                </div>
+
+                <div class="value-card">
+                    <span>03</span>
+                    <h3>Practical</h3>
+                    <p>Mudah dibawa untuk menemani berbagai aktivitas.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCT -->
+        <section id="product" class="product section-padding">
+            <div class="section-heading">
+                <span class="eyebrow">OUR COLLECTION</span>
+                <h2>Find Your <span>Favorite</span></h2>
+                <p>Discover your everyday hydration companion.</p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="blue">Blue</button>
+                <button class="filter-btn" data-filter="yellow">Yellow</button>
+                <button class="filter-btn" data-filter="purple">Purple</button>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card" data-category="blue">
+                    <img src="images/product-blue.jpg"
+                        alt="VIREA tumbler warna biru">
+
+                    <div class="product-info">
+                        <span class="product-category">BLUE COLLECTION</span>
+                        <h3>VIREA Ocean Blue</h3>
+                        <p>Tumbler dengan warna biru yang fresh dan elegan.</p>
+                        <div class="product-bottom">
+                            <strong>Rp80.000</strong>
+                            <a href="#contact" class="buy-btn">Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="yellow">
+                    <img src="images/product-yellow.jpg"
+                        alt="VIREA tumbler warna yellow">
+
+                    <div class="product-info">
+                        <span class="product-category">YELLOW COLLECTION</span>
+                        <h3>VIREA Soft Yellow</h3>
+                        <p>Warna yelloe lembut dengan tampilan feminin.</p>
+                        <div class="product-bottom">
+                            <strong>Rp80.000</strong>
+                            <a href="#contact" class="buy-btn">Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="purple">
+                    <img src="images/product-purple.jpg"
+                        alt="VIREA tumbler warna ungu">
+
+                    <div class="product-info">
+                        <span class="product-category">Purple COLLECTION</span>
+                        <h3>VIREA Cloud White</h3>
+                        <p>Desain minimalis untuk gaya sehari-hari.</p>
+                        <div class="product-bottom">
+                            <strong>Rp80.000</strong>
+                            <a href="#contact" class="buy-btn">Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section id="gallery" class="gallery section-padding">
+            <div class="section-heading">
+                <span class="eyebrow">OUR MOMENTS</span>
+                <h2>VIREA <span>Gallery</span></h2>
+                <p>A little inspiration for your daily routine.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <img src="images/product-blue.jpg" alt="VIREA product moment">
+                <img src="images/product-yellow.jpg" alt="VIREA tumbler collection">
+                <img src="images/product-purple.jpg" alt="VIREA daily lifestyle">
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact section-padding">
+            <div class="section-heading">
+                <span class="eyebrow">LET'S CONNECT</span>
+                <h2>Stay Connected with <span>VIREA</span></h2>
+                <p>Have questions? We would love to hear from you.</p>
+            </div>
+
+            <div class="contact-card">
+                <div>
+                    <h3>Get in Touch</h3>
+                    <p>WhatsApp: 085695672961</p>
+                    <p>Instagram: @virea.official</p>
+                    <p>Location: Cengkareng, Jakarta Barat</p>
+                    <p>Operational Hours: Senin–Sabtu, 09.00–17.00 WIB</p>
+                </div>
+
+                <form id="contactForm">
+                    <input type="text" id="name"
+                        placeholder="Your Name" required>
+
+                    <input type="email" id="email"
+                        placeholder="Your Email" required>
+
+                    <textarea id="message"
+                        placeholder="Your Message"
+                        required></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="closing">
+            <span class="eyebrow">MAKE EVERY SIP SPECIAL</span>
+            <h2>Find Your Everyday Favorite.</h2>
+            <a href="#product" class="btn btn-primary">
+                Explore VIREA
+            </a>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="logo">VIREA<span>.</span></a>
+        <p>Your Daily Hydration, Your Style.</p>
+        <p>© 2026 VIREA. All Rights Reserved.</p>
+    </footer>
+
+    <button id="backToTop" aria-label="Kembali ke atas">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
